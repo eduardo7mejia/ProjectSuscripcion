@@ -9,12 +9,9 @@ Color personalizado
 .card-purple{
 	border-top: 3px solid #727cb6;
 }
-
 .text-purple{
 	color:#727cb6;
 }
-
-
 /*=============================================
 Deslizador de videos
 =============================================*/
@@ -63,7 +60,6 @@ Deslizador de videos
 	opacity:1;
 	border-radius: 6px;
 }
-
 .slide-area li a figure.desactivado img{
 	opacity:.5;
 	border-radius: 6px;
@@ -71,4 +67,32 @@ Deslizador de videos
 img{
 	border-radius: 10px;
 }
+/*Estilos del formulario de suscripción*/
+		/*Activar checkbox*/
+input[type="checkbox"]{
+	display: none;
+}
+label[for="aceptarTerminos"] span{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: #E9ECEF;
+	vertical-align: middle;
+	border-radius: 100%;
+	margin-right: 5px;
+	border: 1px solid #aaa;
+	cursor: pointer;
+}
+input[type="checkbox"]:checked + label[for="aceptarTerminos"] span{
+	background: url(../img/template/check.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border: 1px solid #ffff;	
+}
+/*Firmas*/
+#signatureparent{
+	width: 300px;
+	border-bottom: 2px solid #333;
 
+}

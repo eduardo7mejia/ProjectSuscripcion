@@ -20,7 +20,9 @@
     <!-- overlayScrollbars -->
     <link rel="stylesheet" href="vistas/css/plugins/OverlayScrollbars.min.css">
      <!-- Theme jdSlider -->
-     <link rel="stylesheet" href="vistas/css/plugins/jdSlider.css">
+    <link rel="stylesheet" href="vistas/css/plugins/jdSlider.css">
+     <!--Select 2-->
+    <link rel="stylesheet" href="vistas/css/plugins/select2.min.css">
      <!-- estilo personalizado -->
   	<link rel="stylesheet" href="vistas/css/style.css">
      <!--=====================================
@@ -40,6 +42,13 @@
     <script src="vistas/js/plugins/jquery.overlayScrollbars.min.js"></script>
      <!-- jdSlider -->
      <script src="vistas/js/plugins/jdSlider.js"></script>
+     <!--Select2 -->
+     <script src="vistas/js/plugins/select2.full.min.js"></script>
+      <!--InputMask -->
+      <script src="vistas/js/plugins/jquery.inputmask.js"></script>
+      <!--jSignature-->
+      <script src="vistas/js/plugins/jSignature.js"></script>
+      <script src="vistas/js/plugins/jSignature.CompressorSVG.js"></script>
 </head>
 
 <body class="hold-transition sidebar-mini sidebar-collapse">
@@ -84,6 +93,7 @@
 </div>
 
    <script src="vistas/js/inicio.js"></script>
+   <script src="vistas/js/usuarios.js"></script>
 </body>
 
 </html>

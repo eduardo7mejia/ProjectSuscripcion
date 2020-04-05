@@ -40,7 +40,7 @@
             <div class="form-group">
                 <label for="inputPais" class="control-label">País</label>
                 <div>
-                    <select name="" id="inputPais" class="form-control">
+                    <select name="" id="inputPais" class="form-control select2">
                         <option value="">Selecciona un país</option>
                     </select>
                 </div>
@@ -49,9 +49,9 @@
                 <label for="inputMovil" class="control-label">Télefono Móvil</label>
                 <div class="input-group">
                     <div class="input-group-prepend">
-                        <span class="p-2 bg-info rounded-left dialCode">+52</span>
+                        <span class="p-2 bg-info rounded-left dialCode"></span>
                     </div>
-                    <input type="text" class="form-control" id="inputMovil">
+                    <input type="text" class="form-control" id="inputMovil" data-inputmask="'mask':'(999) 999-9999'"data-mask>
                 </div>
             </div>
             <div class="form-group">
@@ -132,7 +132,7 @@
                             <div class="collapseCuatro" id="collapseTres" data-parent="#accordion">
                                 <div class="card-body">
                                    Si esta de acuerdo con todas las partes de este contrato regaleme la poderosa, este contrato se firma el <?php echo date('d/m/Y');?>
-                                   <div class="mb-4">
+                                   <div id="signatureparent" class="mb-4">
                                        <div id="signature"></div>
                                    </div>
                                    <button type="button" class="repetirFirma btn btn-success btn-sm">Repetir la poderosa</button>
